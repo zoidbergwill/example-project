@@ -4,6 +4,8 @@ Example project so I can play with Bazel.
 
 Eventually I wanna make this a microservice architecture, with a couple Go microservices, Docker images, Kubernetes manifests, and Helm charts.
 
+![Diagram of the Dependency Graph](./mygraph.png)
+
 ## Useful Links
 
 TODO(zoidbergwill): document how and why we use each of these.
