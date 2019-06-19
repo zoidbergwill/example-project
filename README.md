@@ -22,6 +22,7 @@ TODO(zoidbergwill): document how and why we use each of these.
 ### Bazel Blog Posts
 
 [JML's Bazel Correct Reproducible Fast Builds](https://jml.io/2015/07/bazel-correct-reproducible-fast-builds.html)
+
 [BrainTreePayments's Migrating from Gradle to Bazel](https://www.braintreepayments.com/blog/migrating-from-gradle-to-bazel/)
 
 ## Pretty things
