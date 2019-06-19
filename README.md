@@ -10,14 +10,19 @@ Eventually I wanna make this a microservice architecture, with a couple Go micro
 
 TODO(zoidbergwill): document how and why we use each of these.
 
-https://github.com/bazelbuild/rules\_go
-https://github.com/bazelbuild/bazel-gazelle
-https://github.com/bazelbuild/rules\_docker
-https://github.com/bazelbuild/rules\_k8s
-https://github.com/tmc/rules\_helm
+### Bazel Libraries and Tools
 
-https://jml.io/2015/07/bazel-correct-reproducible-fast-builds.html
-https://www.braintreepayments.com/blog/migrating-from-gradle-to-bazel/
+- [bazelbuild/rules_go](https://github.com/bazelbuild/rules_go) - Bazel rules for Go
+- [bazelbuild/bazel-gazelle](https://github.com/bazelbuild/bazel-gazelle) - gazelle is an awesome tool for working with Go projects in Bazel. It can be extended to support other languages, but is awesome because it generates Bazel BUILD files for you.
+
+- [bazelbuild/rules_docker](https://github.com/bazelbuild/rules_docker) - Bazel rules for creating Docker images
+- [bazelbuild/rules_k8s](https://github.com/bazelbuild/rules_k8s) - Bazel rules for Kubernetes manifests
+- [tmc/rules_helm](https://github.com/tmc/rules_helm) - Bazel rules for Helm
+
+### Bazel Blog Posts
+
+[JML's Bazel Correct Reproducible Fast Builds](https://jml.io/2015/07/bazel-correct-reproducible-fast-builds.html)
+[BrainTreePayments's Migrating from Gradle to Bazel](https://www.braintreepayments.com/blog/migrating-from-gradle-to-bazel/)
 
 ## Pretty things
 
