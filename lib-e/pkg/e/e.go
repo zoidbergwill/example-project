@@ -1,5 +1,5 @@
 package e
 
 func E() string {
-		return "Dependency E!"
+		return "Dependency E! Version 2!"
 }

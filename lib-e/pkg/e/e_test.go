@@ -7,7 +7,7 @@ import (
 
 func TestCommon(t *testing.T) {
 		got := e.E()
-		want := "Dependency E!"
+		want := "Dependency E! Version 2!"
 		if got != want {
 				t.Errorf("E() = %s; want %s", got, want)
 		}

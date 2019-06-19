@@ -13,3 +13,6 @@ https://github.com/bazelbuild/bazel-gazelle
 https://github.com/bazelbuild/rules\_docker
 https://github.com/bazelbuild/rules\_k8s
 https://github.com/tmc/rules\_helm
+
+https://jml.io/2015/07/bazel-correct-reproducible-fast-builds.html
+https://www.braintreepayments.com/blog/migrating-from-gradle-to-bazel/

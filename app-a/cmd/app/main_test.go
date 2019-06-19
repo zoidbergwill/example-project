@@ -5,7 +5,7 @@ import (
 		main "github.com/zoidbergwill/example-project/app-a/cmd/app"
 )
 
-func TestMain(t *testing.T) {
+func TestMain(m *testing.M) {
 		main.Run()
 }
 
