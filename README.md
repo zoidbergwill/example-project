@@ -15,6 +15,9 @@ TODO(zoidbergwill): document how and why we use each of these.
 - [bazelbuild/rules_go](https://github.com/bazelbuild/rules_go) - Bazel rules for Go
 - [bazelbuild/bazel-gazelle](https://github.com/bazelbuild/bazel-gazelle) - gazelle is an awesome tool for working with Go projects in Bazel. It can be extended to support other languages, but is awesome because it generates Bazel BUILD files for you.
 
+- [bazelbuild/rules_nodejs](https://github.com/bazelbuild/rules_nodejs/) - Bazel rules for Node.js
+- [Building Javascript and Typescript Outputs (Offical Docs)](https://docs.bazel.build/versions/master/build-javascript.html)
+
 - [bazelbuild/rules_docker](https://github.com/bazelbuild/rules_docker) - Bazel rules for creating Docker images
 - [bazelbuild/rules_k8s](https://github.com/bazelbuild/rules_k8s) - Bazel rules for Kubernetes manifests
 - [tmc/rules_helm](https://github.com/tmc/rules_helm) - Bazel rules for Helm
