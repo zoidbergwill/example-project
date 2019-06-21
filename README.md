@@ -12,15 +12,47 @@ TODO(zoidbergwill): document how and why we use each of these.
 
 ### Bazel Libraries and Tools
 
+#### Go Rules
+
 - [bazelbuild/rules_go](https://github.com/bazelbuild/rules_go) - Bazel rules for Go
 - [bazelbuild/bazel-gazelle](https://github.com/bazelbuild/bazel-gazelle) - gazelle is an awesome tool for working with Go projects in Bazel. It can be extended to support other languages, but is awesome because it generates Bazel BUILD files for you.
+
+#### Javascript Rules
 
 - [bazelbuild/rules_nodejs](https://github.com/bazelbuild/rules_nodejs/) - Bazel rules for Node.js
 - [Building Javascript and Typescript Outputs (Offical Docs)](https://docs.bazel.build/versions/master/build-javascript.html)
 
+- [Full Stack Development with React and Bazel](https://www.syntaxsuccess.com/viewarticle/full-stack-development-with-react-and-bazel)
+- [Scalable React Build with Bazel](https://www.syntaxsuccess.com/viewarticle/scalable-react-build-with-bazel)
+
+#### Docker and Kubernetes Rules
+
 - [bazelbuild/rules_docker](https://github.com/bazelbuild/rules_docker) - Bazel rules for creating Docker images
 - [bazelbuild/rules_k8s](https://github.com/bazelbuild/rules_k8s) - Bazel rules for Kubernetes manifests
 - [tmc/rules_helm](https://github.com/tmc/rules_helm) - Bazel rules for Helm
+
+#### Remote Execution Services:
+
+> I assumed these were all paid for tools from the docs, but they're actually all open source, it seems.
+
+- [bazelbuild/bazel-buildfarm](https://github.com/bazelbuild/bazel-buildfarm) - WIP official'ish Bazel remote caching and execution service
+- [buildgrid/buildgrid](https://gitlab.com/BuildGrid/buildgrid)
+- [twitter/scoot](https://github.com/twitter/scoot)
+- [buildbarn](https://github.com/buildbarn)
+
+- [Adapting Bazel Rules for Remote Execution](https://docs.bazel.build/versions/master/remote-execution-rules.html)
+
+#### Remote Caching
+
+- [Remote Caching](https://docs.bazel.build/versions/master/remote-caching.html)
+
+- [Unofficial Bazel Remote Cache API](https://github.com/buchgr/bazel-remote/)
+
+### Alternatives to Bazel
+
+- [BuildStream](https://buildstream.build/) - The GNOME projects bazel-inspired alternative?
+- Buck
+- Pants
 
 ### Bazel Blog Posts
 
