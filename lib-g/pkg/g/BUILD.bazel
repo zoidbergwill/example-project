@@ -2,13 +2,13 @@ load("@io_bazel_rules_go//go:def.bzl", "go_library", "go_test")
 
 go_library(
     name = "go_default_library",
-    srcs = ["common.go"],
-    importpath = "github.com/zoidbergwill/example-project/lib-common/pkg/common",
+    srcs = ["g.go"],
+    importpath = "github.com/zoidbergwill/example-project/lib-g/pkg/g",
     visibility = ["//visibility:public"],
 )
 
 go_test(
     name = "go_default_test",
-    srcs = ["common_test.go"],
+    srcs = ["g_test.go"],
     embed = [":go_default_library"],
 )
