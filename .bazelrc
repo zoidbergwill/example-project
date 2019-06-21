@@ -1,0 +1,11 @@
+build --spawn_strategy=remote --genrule_strategy=remote --strategy=Go=remote --strategy=Javac=remote --strategy=Closure=remote --remote_executor=localhost:8980
+
+# ERROR: Cannot combine gRPC based remote execution with local disk or HTTP-based caching
+# build --remote_cache=http://localhost:9090
+# build --spawn_strategy=standalone
+
+startup --expand_configs_in_place
+
+# Show us information about failures.
+build --verbose_failures
+test --test_output=errors
